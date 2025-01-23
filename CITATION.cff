@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Cite this work using:"
+authors:
+  - given-names: Janne
+    family-names: Honkonen
+title: "Halko Algorithm: A 3D Biologically Inspired Neural Architecture"
+version: 0.1.0
+doi: 10.5281/zenodo.XXXXXXX  # [TODO: Add after Zenodo upload]
+license: MIT
