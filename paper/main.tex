@@ -1,0 +1,33 @@
+\documentclass{article}
+\usepackage{graphicx}
+
+\title{Halko Algorithm: A 3D Biologically Inspired Neural Architecture}
+\author{Janne Honkonen \and DeepSeek AI (Collaborative Tool)}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+\label{sec:introduction}
+Current architectures (e.g., transformers) lack 3D hierarchy and dynamic routing. HA addresses this via:
+
+\begin{itemize}
+    \item Micro/macro centers inspired by cortical columns \cite{hawkins2021thousand}.
+    \item Cached pathways using synaptic pruning \cite{stoianov2022cortical}.
+\end{itemize}
+
+\section{Theory}
+\label{sec:theory}
+HA’s 3D tensor $\mathbf{T} \in \mathbb{R}^{B \times D \times S \times F}$ processes data across:
+\begin{itemize}
+    \item Batch ($B$), Depth ($D$), Sequence ($S$), Features ($F$).
+\end{itemize}
+
+\section{Ethics}
+\label{sec:ethics}
+See [ETHICS.md](../ETHICS.md) for risks and mitigation strategies.
+
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}
